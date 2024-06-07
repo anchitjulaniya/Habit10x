@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.active {
+  font-family: Poppins !important;
+
+  .main {
+    background-color: #e6d4c7;
+  }
+
+  .rank_main {
+    padding: 0px 7%;
+  }
+
+  .rank {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .card {
+    height: 65px !important;
+    background-color: #f3eae4;
+    margin: 0 5px 5px 5px;
+  }
+
+  .h5 {
+    color: #894d21;
+    font-weight: bold;
+  }
+
+  .rank_title {
+    font-size: 11px;
+    font-weight: 500;
+    color: #894d21;
+    font-family: Poppins !important;
+  }
+
+  .rank_subtitle {
+    color: #894d21;
+    font-size: 8px;
+    font-weight: 500;
+    font-family: Poppins !important;
+  }
+
+  .morning-routine {
+    background-image: url("../../Assets/morning.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    color: #fff;
+    margin: 2rem 0;
+  }
+
+  .morning-text {
+    width: 50%;
+    padding: 1rem;
+  }
+
+  .progress-text {
+    width: 45%;
+    padding: 1rem;
+  }
+
+  .progress {
+    border: 2px solid #894d21;
+    background-color: #e6d4c7;
+    color: #894d21;
+  }
+
+  .progress-data {
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .session {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    width: 60%;
+    padding: 1px;
+    text-align: center;
+    font-size: 10px !important;
+    margin-top: 8px;
+  }
+
+  .report {
+    border: 1px solid #894d21;
+    border-radius: 50px;
+    width: 100%;
+    padding: 1px 2px;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 10px !important;
+  }
+
+  @media only screen and (min-width: 320px) and (max-width: 465px) {
+    .report {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (min-width: 465px) and (max-width: 768px) {
+    .report {
+      width: 65%;
+    }
+  }
+
+  .text {
+    padding: 0 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #894d21;
+  }
+
+  .join {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 45px 10px;
+  }
+
+  .join-text {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    text-align: center;
+    width: 40%;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+  }
+
+  .register {
+    background-image: url("../../Assets/Clip2.png");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 45px 10px;
+  }
+
+  .register1 {
+    background-image: url("../../Assets/Clip3.png");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 45px 10px;
+  }
+}
+
+.circle-icon-active {
+  height: 0.4em !important;
+  width: 0.6em !important;
+}
+
+.circle-icon-inactive {
+  height: 0.4em !important;
+  width: 0.6em !important;
+  color: red;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important;
+  padding: 12px;
+  background-color: #894d21 !important;
+  /* gap: 2.5rem */
+}
+
+.HeaderMain {
+  display: flex;
+  background-color: #e6d4c7;
+  align-items: center;
+  padding: 12px;
+  border-radius: 50px;
+  height: 2px;
+}
+
+.activeClass-active {
+  border: 1px solid green;
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.activeClass-inactive {
+  border: 1px solid red;
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.imgHeader {
+  text-align: end;
+width: 30%;
+}
+
+.activeBtn {
+  font-size: 0.7rem !important;
+  color: green;
+  font-weight: 600 !important;
+}
+
+.inactiveBtn {
+  font-size: 0.7rem !important;
+  color: red;
+  font-weight: 600 !important;
+}
+
+.logoutIcon {
+  color: #fff;
+}
+
+.renewBtn {
+  color: red !important;
+  font-size: 0.7rem !important;
+  font-weight: 600 !important;
+  margin-left: 7px !important;
+  padding: 0px !important;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  height: 0.5rem !important;
+  width: 0.5em !important;
+}
+
+.MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root {
+  font-size: 20px !important;
+}
+
+.css-821wyw-MuiSvgIcon-root {
+  height: 0.8em !important;
+}

@@ -1,0 +1,168 @@
+.resource_heading {
+  color: #fff;
+  text-align: center;
+}
+
+.resourceText {
+  text-align: center;
+  padding: 0.7rem 0;
+  padding-left: 55px;
+  font-style: Poppins;
+  font-weight: 500;
+  font-size: 1.2rem;
+  background-color: #894d21 !important;
+  color: #e6d4c7;
+  line-height: 2.5 !important;
+}
+
+.resurce-text {
+  text-align: center;
+  padding: 0.7rem;
+  font-style: Poppins;
+  font-weight: 500 !important;
+  font-size: 1.2rem !important;
+  background-color: #894D21 !important;
+  color: #E6D4C7;
+  line-height: 2.5 !important;
+}
+
+.resource_imgHeader {
+  text-align: center;
+  padding: 0.7rem;
+  font-style: Poppins;
+  font-weight: 500;
+  font-size: 1.2rem;
+  background-color: #894d21 !important;
+  color: #e6d4c7;
+}
+
+.logoutIcon {
+  font-size: 32px;
+  padding: 10px 0 4px 0;
+
+}
+
+.video {
+  .toggle_btn_grp {
+    width: 91%;
+    border-radius: 5px;
+    background-color: rgba(30, 58, 138, 0.2);
+  }
+
+  .main {
+    background-color: #e6d4c7;
+  }
+
+  .download_btn:hover {
+    background-color: green;
+  }
+
+  .toggle_btn {
+    width: 100%;
+    background-color: rgba(30, 58, 138, 0.2);
+    color: black;
+    margin: 4px;
+    border-radius: 12px;
+    border: none;
+  }
+
+  .toggle_btn:hover {
+    background-color: rgba(30, 58, 138, 0.2);
+  }
+
+  .toggle_btn.Mui-selected {
+    background-color: #894D21;
+    color: white;
+  }
+
+  .toggle_btn.Mui-selected:hover {
+    background-color: #894D21;
+  }
+
+  .css-168pop2-MuiList-root {
+    padding-top: 0px;
+  }
+
+  .accordian {
+    border-radius: 15px !important;
+    margin-bottom: 4px;
+  }
+
+  .accordian::before {
+    background: transparent;
+  }
+
+  .css-1elwnq4-MuiPaper-root-MuiAccordion-root:before {
+    height: 0;
+  }
+
+  .css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+    box-shadow: none;
+  }
+}
+
+.lockIcon {
+  font-size: 30px;
+}
+
+.subscribe_now_btn {
+  width: 52%;
+  height: 25px;
+  font-size: 1rem;
+  background-color: #E6D4C7 !important;
+  color: green !important;
+  border-radius: 10000px !important;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 425px) {
+  .subscribe_now_btn {
+    width: 55%;
+  }
+}
+
+.video-container {
+  position: relative;
+  pointer-events: none !important;
+  opacity: 0.5;
+  cursor: not-allowed !important;
+
+}
+
+.download_btn {
+  background-color: green !important;
+  color: #fff !important;
+  font-size: 0.8rem !important;
+  width: 70%;
+  position: absolute !important;
+  bottom: -14px;
+  left: 14%;
+}
+.unlock_btn{
+  background-color: blue !important;
+}
+
+.imgPdf {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.card-data {
+  height: 170px;
+}
+
+.image-text {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.image-text p{
+  padding-top: 10px;
+  font-size: 15px;
+}

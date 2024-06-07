@@ -1,0 +1,212 @@
+.settings {
+
+    .update_btn {
+        background-color: #077ED8 !important;
+        border-radius: 20px;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-top: 1px !important;
+        margin-bottom: 1px !important;
+    }
+}
+
+.header {
+    background-color: #894D21 !important;
+}
+
+.setting_heading {
+    color: #fff;
+    text-align: center;
+}
+
+.settingText {
+    text-align: center;
+    padding: 0.7rem;
+    font-style: Poppins;
+    font-weight: 500;
+    font-size: 1.2rem;
+    background-color: #894D21 !important;
+    color: #E6D4C7;
+    line-height: 2.5 !important;
+
+
+}
+
+.info-Data {
+    padding: 35px !important;
+    background-color: #E6D4C7;
+    height: 100vh;
+}
+
+.info-Data2 {
+    background-color: transparent !important;
+    /* border-radius: 30px !important;  */
+}
+
+.mb-1 {
+    margin-bottom: 1rem !important;
+}
+
+.css-1fjvggn-MuiPaper-root-MuiAccordion-root {
+    border-radius: 50px;
+}
+
+.personalInfo {
+    color: #894D21 !important;
+    font-weight: 600 !important;
+    font-style: Poppins;
+}
+
+.complainText {
+    display: flex;
+    align-items: center;
+    color: #894D21 !important;
+    font-weight: 500 !important;
+    font-style: Poppins;
+    /* font-size: 1rem !important; */
+}
+
+.div#panel1d-header {
+    background-color: none !important;
+
+}
+
+.span.MuiSwitch-thumb.css-jsexje-MuiSwitch-thumb {
+    background-color: #894D21 !important;
+
+}
+
+.span.MuiSwitch-track.css-1yjjitx-MuiSwitch-track {
+    background-color: #894D21 !important;
+
+}
+
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+    color: #894D21 !important
+}
+
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+    background-color: #894D21 !important;
+
+}
+
+.accordion {
+    background-color: #E6D4C7 !important;
+    margin: 0 0 10px;
+    border: 0px solid !important;
+}
+.MailIcon, .WhatsAppIcon{
+    border: 1px solid #F3EAE4;
+    border-radius: 3px;
+    padding: 2px;
+    background-color: #F3EAE4;
+    color:"#894D21 " !important;
+    margin-left: 10px !important;
+    cursor: pointer;
+    font-size: 30px !important;
+}
+
+.TextareaAutosize{
+    width: 70% !important;
+    height:200px !important;
+    background-color:#F3EAE4 ;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+
+}
+
+.AccordionDetails {
+    border-top: 0px solid !important;
+    padding: 8px 0px 16px !important;
+}
+
+.dropdown {
+    border: 1px solid #894D21;
+    border-radius: 30px;
+    background-color: #894D21;
+    color: #E6D4C7;
+    margin-bottom: 1rem;
+}
+
+.ml-2 {
+    width: 70% !important;
+    .MuiInputBase-root {
+        border-radius: 30px;
+        background-color: #F3EAE4;
+        height: 30px;
+        padding-left: 0.5rem;
+    }
+
+    .MuiInputBase-root input {
+        padding: 10px !important;
+    }
+}
+.toggle-button{
+    width: 70% !important;
+    height: 30px !important;
+    border-radius: 30px !important;
+    background-color: #F3EAE4 !important;
+    /* padding-left: 0.5rem !important; */
+}
+.MuiToggleButtonGroup-grouped:not(:first-of-type) {
+    border-top-right-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+.MuiToggleButtonGroup-grouped:not(:last-of-type) {
+    border-top-left-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+}
+.dropdown .Mui-selected  {
+    background-color: rgb(149 13 13 / 8%) !important;
+}
+.subscription_active{
+    .MuiInputBase-root {
+        background-color: green;
+    }
+}
+
+.subscription_inactive{
+    .MuiInputBase-root {
+        background-color: red;
+    }
+}
+
+.label {
+    width: 30%;
+    text-align: center;
+    font-size: 0.9rem !important;
+}
+@media only screen and (min-width: 320px) and (max-width: 375px){
+    .label{
+        font-size: 0.7rem !important;
+    }
+}
+@media only screen and (min-width: 900px) and (max-width: 1200px){
+    .label{
+        font-size: 0.7rem !important;
+    }
+}
+
+.PersonalInformationDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.need_support_submit_btn{
+    background-color: #894D21 !important;
+    color: #E6D4C7 !important;
+    text-transform: capitalize !important;
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+    width: 30%;
+    margin-top: 10px !important;
+}
+
+.MuiSelect-select.MuiSelect-outlined{
+    padding: 10px !important;
+}

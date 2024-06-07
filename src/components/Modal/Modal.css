@@ -1,0 +1,64 @@
+.modal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .modal-content {
+    background-color: #e6d4c7;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 10px !important;
+  }
+
+  .model_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+ 
+
+  .heading1{
+    font-size: 2.4rem !important;
+    line-height: 2.6rem !important;
+    font-weight: 600 !important;
+    color: #894d21;
+    padding-bottom: 1rem;
+  }
+  .heading2{
+    font-size: 0.8rem !important;
+    color: #894d21;
+  }
+  .renew_btn{
+    width: 60%;
+    font-size: 1rem !important;
+    background-color: #077ED8 !important;
+    color: #e6d4c7 !important;
+    text-transform: capitalize !important;
+  }
+  
+ 
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+  
+ 
+  
+  
+  

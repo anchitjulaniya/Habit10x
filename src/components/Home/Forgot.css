@@ -1,0 +1,40 @@
+.Email {
+    background-color: #F3EAE4 !important;
+}
+
+.update_btn {
+    background-color: #894D21 !important;
+    border-radius: 20px !important;
+    color: #fff !important;
+    font-size: 0.9rem !important;
+    font-weight: 400 !important;
+}
+@media (min-width: 726px) {
+    .Snackbar{
+        left:200px !important;
+        right: 210px !important;
+    }
+}
+@media (min-width: 1024px) {
+    .Snackbar{
+        left:420px !important;
+        right: 420px !important;
+    }
+}
+@media (min-width: 1440px) {
+    .Snackbar{
+        left:500px !important;
+        right: 500px !important;
+    }
+}
+
+@media (min-width: 2560px) {
+    .Snackbar{
+        left:900px !important;
+        right: 900px !important;
+    }
+}
+.input_email{
+    margin-top: 10px !important;
+    font-size: 0.4rem !important;
+}

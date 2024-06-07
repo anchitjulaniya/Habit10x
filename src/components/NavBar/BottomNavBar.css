@@ -1,0 +1,82 @@
+.bottom-nav {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  background-color: #894D21  ;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  width: 33.33%
+}
+
+.bottom-nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bottom-nav li {
+  padding: 1rem 1.2rem;
+  display: block;
+  font-weight: bold;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s ease;
+}
+
+.nav-link:hover {
+  color: #E6D4C7;
+  transition: 1s ease;
+}
+
+.nav-link .icons {
+  padding-right: 5px;
+  height: 1.5rem !important;
+
+}
+
+
+/* Media query for adjusting styles for smaller screens */
+
+@media only screen and (min-width: 629px) and (max-width: 899px)  {
+  .bottom-nav {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .bottom-nav li {
+    padding: 0.6rem 3rem;
+  }
+
+  .bottom-nav {
+    max-width: 100%;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 628px) {
+  .nav-link span {
+    display: none;
+  }
+
+  .bottom-nav {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .bottom-nav li {
+    padding: 0.6rem 1.8rem;
+  }
+
+}
+.svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.icons.css-i4bv87-MuiSvgIcon-root{
+  height: 1.5rem !important;
+}
