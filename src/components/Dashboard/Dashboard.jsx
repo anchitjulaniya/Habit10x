@@ -46,6 +46,7 @@ const Dashboard = () => {
     });
     fetchData();
   }, []);
+
   const handleLogout = async () => {
     try {
       navigate("/");
@@ -53,6 +54,7 @@ const Dashboard = () => {
       console.log(error);
     }
   };
+  
   const handleRenew = () => {
     navigate('/checkOut');
   };
@@ -313,7 +315,7 @@ const Dashboard = () => {
                   </Typography>
                 </Box>
                 {getProgram?.map((item) => (
-                  <div>
+                  <div key={item?._id}>
                     {isLoading &&
                       <Loader />}
                     <><Card className="join" style={{ backgroundImage: `url(${item?.imageurl})` }}>

@@ -9,7 +9,7 @@ import "./CheckoutForm.css";
 import axios from "axios";
 import { url } from "../../constant";
 
-export default function CheckoutForm() {
+function CheckoutForm() {
   const stripe = useStripe();
   const elements = useElements();
   const [email, setEmail] = useState("");
@@ -142,3 +142,6 @@ export default function CheckoutForm() {
     </form>
   );
 }
+
+
+export default CheckoutForm;

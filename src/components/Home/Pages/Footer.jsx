@@ -8,8 +8,6 @@ import ClipPathGrp1 from "../../../Assets/Clip path group (1).png";
 import ClipPathGrp2 from "../../../Assets/Clip path group (2).png";
 import BrochurePdf from "../../../Assets/Brochure New.pdf";
 
-
-
 function Footer() {
   const handleDownloadBrochure = () => {
     
