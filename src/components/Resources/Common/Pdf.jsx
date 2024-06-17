@@ -45,6 +45,7 @@ const Pdf = ({ section }) => {
       top: 0,
       behavior: "smooth",
     });
+    console.log(section);
     fetchPdf();
     fetchData();
   }, []);
