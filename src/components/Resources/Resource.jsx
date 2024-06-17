@@ -14,14 +14,18 @@ import { useNavigate } from "react-router-dom";
 import Pdf from "./Common/Pdf";
 import Video from "./Common/video";
 import Faq from "./Common/Faq";
+import { useEffect } from "react";
 
 const Resource = () => {
+  
   const [section, setSection] = useState("pdf");
   const navigate = useNavigate();
   const handleSectionChange = (event, newSection) => {
     setSection(newSection);
   };
-
+  useEffect(()=>{
+    console.log("resource Page")
+  },[])
   const handleLogout = async () => {
     try {
       sessionStorage.clear();
@@ -35,7 +39,7 @@ const Resource = () => {
   //   navigate('/');
   //   return
   // }
-  
+
   return (
     <>
       <Box>
@@ -102,9 +106,9 @@ const Resource = () => {
                 </ToggleButtonGroup>
               </Box>
 
-              <Pdf section={section} />
+              {/* <Pdf section={section} />
               <Video section={section} />
-              <Faq section={section} />
+              <Faq section={section} /> */}
 
 
               <Box style={{ marginBottom: "4rem" }}>
