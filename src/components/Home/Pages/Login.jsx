@@ -175,7 +175,14 @@ function Login() {
           fullWidth
           variant="contained"
           endIcon={<ArrowForwardIcon />}
-          onClick={handleLoginClick}
+          // onClick={handleLoginClick}
+          onClick={()=>{
+            console.log("before navigate")
+            navigate("/dashboard")
+            console.log("after navigate")
+          }
+            
+          }
           style={{
             backgroundColor: "#894D21",
             color: "white",

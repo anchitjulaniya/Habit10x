@@ -209,6 +209,7 @@
 .imgHeader {
   text-align: end;
 width: 30%;
+cursor: pointer;
 }
 
 .activeBtn {

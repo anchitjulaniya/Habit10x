@@ -28,12 +28,14 @@ const Resource = () => {
       navigate("/");
     } catch (error) { }
   };
+
   // To protected the Route
   // const mail = JSON.parse(sessionStorage.getItem("data"));
   // if (!mail){
   //   navigate('/');
   //   return
   // }
+  
   return (
     <>
       <Box>

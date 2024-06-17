@@ -39,13 +39,16 @@ const Dashboard = () => {
   //   return greenIndices.includes(index) ? "#4E9B2A" : "#AF0E0E";
   // };
 
-  useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-    fetchData();
-  }, []);
+
+  // this comment is done by Anchit 
+  // onload it will call fetchData and if user is not loggedin then user will redirect to login page
+  // useEffect(() => {
+  //   window.scrollTo({
+  //     top: 0,
+  //     behavior: "smooth",
+  //   });
+  //   fetchData();
+  // }, []);
 
   const handleLogout = async () => {
     try {
