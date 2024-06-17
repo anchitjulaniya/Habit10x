@@ -22,7 +22,6 @@ const BottomNavBar = () => {
         <li>
           <Link to="/resources" className="nav-link">
             <AllInboxIcon className="icons" /> <span>Resources</span>
-            <p>Resources</p>
           </Link>
         </li>
       </ul>
